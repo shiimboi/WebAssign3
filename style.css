@@ -1,0 +1,32 @@
+#myMap {
+    height:100%;
+    width:100%;
+    left:0px; 
+    position: fixed;
+    height: 75%;
+	top: 70px;
+	padding-bottom: 20px;
+	zoom: 1.0;
+}
+
+/*Select any elements with title id*/
+#title {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    height: 76px;
+    top: 0px;
+    opacity: 0.80;
+    color: black;
+    background: rgb(78, 172, 226) none repeat scroll 0% 0%;
+    width: 100%;
+}
+
+/*Select any elements with h2 tag in title id */
+#title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+	color: rgba(255, 255, 0, 0.76);
+	font-size: xx-large;
+	height: 92px;
+}
